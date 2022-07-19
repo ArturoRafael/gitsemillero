@@ -1,95 +1,149 @@
 * {
-    padding: 0;
-    margin: 0;
-    border: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-    font-family: 'Open Sans', sans-serif;
-
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
-/********* Header *********/
+/*************************************************** BRAYAN *************************************************/
 
-.background-header{
-    background: #0F3460;
-    padding-bottom: 10px;
+/* -------------------------------- */
+.sectiom-padding {
+  padding-top: 40px;
+}
 
-} 
-.background-header p{
-    color: white;
-    display: inline-block;
-    padding-left: 10px;
-    margin-top: 10px;
-   
+/* ---------------------------- */
+
+.background-header {
+  background: #0f3460;
+  padding-bottom: 10px;
 }
-.img-size{
-    width: 20px;
-    display: inline-block;
-    margin-left: 30px;
-   
+
+.background-header p {
+  color: white;
+  display: inline-block;
+  padding-left: 10px;
+  margin-top: 10px;
 }
-.input-Nav{
-    width: 57px;
-    background: #0F3460; 
-    font-size: 15px;
-    margin-left: 20px;
+
+.img-size {
+  width: 20px;
+  display: inline-block;
+  margin-left: 30px;
 }
-.nav, nav li{
-    display: inline-block;
+
+.input-Nav {
+  width: 57px;
+  background: #0f3460;
+  font-size: 15px;
+  margin-left: 20px;
 }
-.nav{
-padding-left: 520px;
-margin-top: 20px;
+
+.nav,
+nav li {
+  display: inline-block;
 }
-.nav a{
-    color: white;
-    padding-left: 10px;
-    text-decoration: none;
+
+.nav {
+  padding-left: 520px;
+  margin-top: 20px;
 }
-.input-Nav, :placeholder-shown, ::placeholder{
-    color: white;
+
+.nav a {
+  color: white;
+  padding-left: 10px;
+  text-decoration: none;
 }
+
+.input-Nav,
+:placeholder-shown,
+::placeholder {
+  color: white;
+}
+
+/* --------------section 1--------------- */
+.cart1-FormPay {
+  margin-top: 20px;
+  border-radius: 10px;
+  margin-left: 50px;
+  margin-right: 500px;
+  background: whitesmoke;
+}
+
+.section-1 figure figcaption {
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+.img-sizeOne {
+  width: 40px;
+  display: inline-block;
+}
+
+.input-cartSect1 {
+  width: 284px;
+  background: #ffffff;
+  font-size: 15px;
+  margin-left: 20px;
+  border: solid black 1px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.input-Nav,
+:placeholder-shown,
+::placeholder {
+  color: rgb(0, 0, 0);
+}
+
+.display-inliBlock {
+  display: inline-block;
+}
+
+/*************************************************** RUBEN *************************************************/
 
 /********* estilos compartidos *********/
 
-.off-color{
-    background: rgb(210, 63, 87);
-    border-radius: 15px;
-    padding: 5px;
-    font-size: 10px;
-    width: 60%;
+.off-color {
+  background: rgb(210, 63, 87);
+  border-radius: 15px;
+  padding: 5px;
+  font-size: 10px;
+  width: 60%;
 }
 
-.centradoMargin{
-    margin: 0 auto;
+.centradoMargin {
+  margin: 0 auto;
 }
 
 /********* Lista Productos *********/
 
-.sect-tiposProductos{
-    background: yellowgreen;
-    width: 80%;
-    margin: 0 auto;
+.sect-tiposProductos {
+  background: yellowgreen;
+  width: 80%;
+  margin: 0 auto;
 }
 
-.sect-tiposProductos div{
-    display: inline-block;
-    margin: 25px 10px;
-    padding: 15px;
-    width: 240px;
-    height: 160px;
-    text-align: center;
-    font-size: 14px;
-    border-radius: 10px;
-    border: 1px solid gray;
+.sect-tiposProductos div {
+  display: inline-block;
+  margin: 25px 10px;
+  padding: 15px;
+  width: 240px;
+  height: 160px;
+  text-align: center;
+  font-size: 14px;
+  border-radius: 10px;
+  border: 1px solid gray;
 }
 
-.figure-tipoProductos img{
-    width: 35px;
-    height: 35px;
-    margin: 15px 0;
+.figure-tipoProductos img {
+  width: 35px;
+  height: 35px;
+  margin: 15px 0;
 }
 
-.rightOff{
-    margin: 0 80px;
+.rightOff {
+  margin: 0 80px;
 }
