@@ -7,4 +7,15 @@
 
 }
 
-
+.background-header{
+    background: #0C0E30;
+    display: flex;
+}
+.background-header p{
+    color: white;
+    padding-left: 10px;
+}
+.img-size{
+    width: 20px;
+    border: black;
+}
