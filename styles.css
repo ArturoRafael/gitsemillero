@@ -5,17 +5,3 @@
     font-family: Arial, Helvetica, sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
-
-header{
-    background: blue;
-    color: white;
-}
-
-footer{
-    background: blue;
-    color: white;
-}
-a {
-    text-decoration: none;
-    font-size: 10px;
-}
