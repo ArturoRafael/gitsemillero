@@ -5,42 +5,76 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-
-        <nav>
-            <a href="#">lista de Productos Ruben</a>
+    <header class="background-header">
+        <img src="/gitsemillero/imagenes/phone.png" alt="" class="img-size">
+        <p>
+            +88012 3456 7895
+        </p>
+        <img src="/gitsemillero/imagenes/message.png" alt="" class="img-size">
+        <p>
+            support@ui-lib.com
+        </p>
+        <nav class="nav">
+            <ul>
+                <li>
+                    <a href="">Home</a>
+                </li>
+                <li>
+                    <a href="">Theme FAQ"s</a>
+                </li>
+                <li>
+                    <a href="">Need help?</a>
+                </li>
+                <li>
+                    <input list="cursos" placeholder="Eng" class="input-Nav" class="input">
+                    <datalist id="cursos">
+                        <option value="Eng"></option>
+                        <option value="Spa"></option>
+                        <option value="Frans"></option>
+                    </datalist>
+                </li>
+                <li>
+                    <input list="moneda" placeholder="USD" class="input-Nav" class="input">
+                    <datalist id="moneda">
+                        <option value="USD"></option>
+                        <option value="COL"></option>
+                        <option value="EU"></option>
+                    </datalist>
+                </li>
+            </ul>
         </nav>
     </header>
 
     <main>
-        <section class="sect-tiposProductos">
-            <h1>flash deals, enjoy upto 80% discount</h1>
+        <section class="sect-tiposProductos section-padding">
+            <h1>Flash Deals, Enjoy Upto 80% discount</h1>
             <div>
-                <h3>Upto 40% off</h3>
-                <figure>
+                <h3 class="rightOff off-color">Upto 40% off</h3>
+                <figure class="figure-tipoProductos">
                     <img src="img/img-furniture.png" alt="Mueble">
                     <figcaption>Furniture</figcaption>
                 </figure>
             </div>
             <div>
-                <h3>Upto 40% off</h3>
-                <figure>
+                <h3 class="rightOff off-color">Upto 40% off</h3>
+                <figure class="figure-tipoProductos">
                     <img src="img/img-women.png" alt="Mujer">
                     <figcaption>Women</figcaption>
                 </figure>
             </div>
             <div>
-                <h3>Upto 40% off</h3>
-                <figure>
+                <h3 class="rightOff off-color">Upto 40% off</h3>
+                <figure class="figure-tipoProductos">
                     <img src="img/img-eelctronics.png" alt="Mueble">
                     <figcaption>Eelctronics</figcaption>
                 </figure>
             </div>
             <div>
-                <h3>Upto 40% off</h3>
-                <figure>
+                <h3 class="rightOff off-color">Upto 40% off</h3>
+                <figure class="figure-tipoProductos">
                     <img src="img/img-cosmetics.png" alt="Mueble">
                     <figcaption>Cosmetics</figcaption>
                 </figure>

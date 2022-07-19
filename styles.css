@@ -8,6 +8,8 @@
 
 }
 
+/********* Header *********/
+
 .background-header{
     background: #0F3460;
     padding-bottom: 10px;
@@ -48,6 +50,22 @@ margin-top: 20px;
     color: white;
 }
 
+/********* estilos compartidos *********/
+
+.off-color{
+    background: rgb(210, 63, 87);
+    border-radius: 15px;
+    padding: 5px;
+    font-size: 10px;
+    width: 60%;
+}
+
+.centradoMargin{
+    margin: 0 auto;
+}
+
+/********* Lista Productos *********/
+
 .sect-tiposProductos{
     background: yellowgreen;
     width: 80%;
@@ -55,8 +73,23 @@ margin-top: 20px;
 }
 
 .sect-tiposProductos div{
-    background: rgb(93, 210, 240);
     display: inline-block;
-    margin: 10px 20px;
-    width: 200px;
+    margin: 25px 10px;
+    padding: 15px;
+    width: 240px;
+    height: 160px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+.figure-tipoProductos img{
+    width: 35px;
+    height: 35px;
+    margin: 15px 0;
+}
+
+.rightOff{
+    margin: 0 80px;
 }
