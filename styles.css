@@ -8,74 +8,97 @@
 }
 
 /* -------------------------------- */
-.sectiom-padding{
+.sectiom-padding {
     padding-top: 40px;
 }
+
 /* ---------------------------- */
 
-.background-header{
+.background-header {
     background: #0F3460;
     padding-bottom: 10px;
 
-} 
-.background-header p{
+}
+
+.background-header p {
     color: white;
     display: inline-block;
     padding-left: 10px;
     margin-top: 10px;
-   
+
 }
-.img-size{
+
+.img-size {
     width: 20px;
     display: inline-block;
     margin-left: 30px;
-   
+
 }
-.input-Nav{
+
+.input-Nav {
     width: 57px;
-    background: #0F3460; 
+    background: #0F3460;
     font-size: 15px;
     margin-left: 20px;
 }
-.nav, nav li{
+
+.nav,
+nav li {
     display: inline-block;
 }
-.nav{
-padding-left: 520px;
-margin-top: 20px;
+
+.nav {
+    padding-left: 520px;
+    margin-top: 20px;
 }
-.nav a{
+
+.nav a {
     color: white;
     padding-left: 10px;
     text-decoration: none;
 }
-.input-Nav, :placeholder-shown, ::placeholder{
+
+.input-Nav,
+:placeholder-shown,
+::placeholder {
     color: white;
 }
+
 /* --------------section 1--------------- */
-.cart1-FormPay{
+.cart1-FormPay {
     margin-top: 20px;
-    box-shadow: 40px 3px 16px #1B1C2517;
-    border-radius: 8px;
-   
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-right: 500px;
+    background: whitesmoke;
 }
 
-.section-1 figure figcaption{
+.section-1 figure figcaption {
     display: inline-block;
     padding-bottom: 10px;
 }
-.img-sizeOne{
+
+.img-sizeOne {
     width: 40px;
     display: inline-block;
 }
-.input-cartSect1{
-    width: 341px;
-    background: #ffffff; 
+
+.input-cartSect1 {
+    width: 284px;
+    background: #ffffff;
     font-size: 15px;
     margin-left: 20px;
     border: solid black 1px;
     border-radius: 5px;
+    display: inline-block;
 }
-.input-Nav, :placeholder-shown, ::placeholder{
+
+.input-Nav,
+:placeholder-shown,
+::placeholder {
     color: rgb(0, 0, 0);
+}
+
+.display-inliBlock {
+    display: inline-block;
 }
