@@ -4,7 +4,6 @@
   border: 0;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
-  font-family: "Open Sans", sans-serif;
 }
 
 /*************************************************** BRAYAN *************************************************/
@@ -111,11 +110,16 @@ nav li {
   border-radius: 15px;
   padding: 5px;
   font-size: 10px;
-  width: 60%;
+  width: 80px;
+  text-align: center;
 }
 
 .centradoMargin {
   margin: 0 auto;
+}
+
+.colorTxt{
+  color: rgb(210, 63, 87);
 }
 
 /********* Lista Productos *********/
@@ -145,5 +149,28 @@ nav li {
 }
 
 .rightOff {
-  margin: 0 80px;
+  margin: 0 120px;
+}
+
+/********* Venta Productos *********/
+
+.article-ventas{
+  width: 240px;
+  height: 300px;
+  margin: 25px 10px;
+  display: inline-block;
+  border-radius: 10px;
+  border: 1px solid gray;
+  padding: 15px;
+  font-size: 14px;
+}
+
+.article-ventas img{
+  margin: 45px 30px;
+  width: 150px;
+  height: 100px;
+}
+
+.article-ventas p{
+  display: inline-block;
 }
