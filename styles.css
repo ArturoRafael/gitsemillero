@@ -228,6 +228,9 @@ textarea{
     height: 40px;
     color: #D8DBDD;
 }
+..crear-review{
+    padding-bottom: 5%;
+}
 .crear-review h2{
     padding-bottom: 2%;
 }
