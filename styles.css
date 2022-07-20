@@ -1,84 +1,112 @@
 * {
-    padding: 0;
-    margin: 0;
-    border: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-/* -------------------------------- */
-.sectiom-padding{
-    padding-top: 40px;
-}
-/* ---------------------------- */
+/*************************************************** RUBEN *************************************************/
 
-.background-header{
-    background: #0F3460;
-    padding-bottom: 10px;
+/********* estilos compartidos *********/
 
-} 
-.background-header p{
-    color: white;
-    display: inline-block;
-    padding-left: 10px;
-    margin-top: 10px;
-   
-}
-.img-size{
-    width: 20px;
-    display: inline-block;
-    margin-left: 30px;
-   
-}
-.input-Nav{
-    width: 57px;
-    background: #0F3460; 
-    font-size: 15px;
-    margin-left: 20px;
-}
-.nav, nav li{
-    display: inline-block;
-}
-.nav{
-padding-left: 520px;
-margin-top: 20px;
-}
-.nav a{
-    color: white;
-    padding-left: 10px;
-    text-decoration: none;
-}
-.input-Nav, :placeholder-shown, ::placeholder{
-    color: white;
-}
-/* --------------section 1--------------- */
-.cart1-FormPay{
-    margin-top: 20px;
-    box-shadow: 40px 3px 16px #1B1C2517;
-    border-radius: 8px;
-   
+.display-inliBlock {
+  display: inline-block;
 }
 
-.section-1 figure figcaption{
-    display: inline-block;
-    padding-bottom: 10px;
+.off-color {
+  background: rgb(210, 63, 87);
+  border-radius: 15px;
+  padding: 5px;
+  font-size: 10px;
+  width: 80px;
+  text-align: center;
 }
-.img-sizeOne{
-    width: 40px;
-    display: inline-block;
+
+.centradoMargin {
+  margin: 0 auto;
 }
-.input-cartSect1{
-    width: 341px;
-    background: #ffffff; 
-    font-size: 15px;
-    margin-left: 20px;
-    border: solid black 1px;
-    border-radius: 5px;
+
+.colorTxt {
+  color: rgb(210, 63, 87);
 }
-.input-Nav, :placeholder-shown, ::placeholder{
-    color: rgb(0, 0, 0);
+
+/********* Lista Productos *********/
+
+.sect-tiposProductos {
+  width: 80%;
+  margin: 0 auto;
 }
+
+.sect-tiposProductos div {
+  display: inline-block;
+  margin: 25px 10px;
+  padding: 15px;
+  width: 240px;
+  height: 160px;
+  text-align: center;
+  font-size: 14px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  background: white;
+}
+
+.figure-tipoProductos img {
+  width: 35px;
+  height: 35px;
+  margin: 15px 0;
+}
+
+.rightOff {
+  margin: 0 120px;
+}
+
+/********* Venta Productos *********/
+
+.article-ventas {
+  position: relative;
+  width: 240px;
+  height: 320px;
+  margin: 25px 10px;
+  display: inline-block;
+  border-radius: 10px;
+  border: 1px solid gray;
+  padding: 15px;
+  font-size: 14px;
+  background: white;
+}
+
+.article-ventas figure img {
+  margin: 45px 30px;
+  width: 150px;
+  height: 100px;
+}
+
+.article-ventas p {
+  display: inline-block;
+}
+
+.Rating{
+  width: 100px;
+  margin: 10px 0;
+  display: block;
+}
+
+.btn-añadirCompra{
+  cursor: pointer;
+  position: absolute;
+  right: 15px;
+  bottom: 10px;
+  background: white;
+}
+
+.mensaje-sumaProductos{
+  margin: 50px 0;
+}
+
+/*************************************************** GABRIEL *************************************************/
+
+
 /**Main-Gabriel**/
 .main-g{
     background-color: #f6f9fc;
@@ -237,6 +265,12 @@ textarea{
 .crear-review button{
     margin-top: 2%;
 }
+.product-prefooter{
+    padding: 5% 0 5% 13%;
+}
+.off-color{
+    color: #ffffff;
+}
 /**End-Main-Gabriel**/
 /**Footer**/
 footer{
@@ -295,3 +329,8 @@ footer ul li a {
 footer ul li a:hover {
     text-decoration: underline;
 }
+
+.display-inliBlock {
+    display: inline-block;
+}   
+/****************************************************************************************************/
