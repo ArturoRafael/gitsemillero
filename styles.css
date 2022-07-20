@@ -3,17 +3,18 @@
     margin: 0;
     border: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
-
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 /* -------------------------------- */
-.sectiom-padding {
-    padding-top: 40px;
-}
+
 
 /* ---------------------------- */
-
+.select-nav{
+    background: #0F3460;
+    padding-left: 20PX;
+    color: white;
+}
 .background-header {
     background: #0F3460;
     padding-bottom: 10px;
@@ -48,57 +49,147 @@ nav li {
 }
 
 .nav {
-    padding-left: 520px;
+    padding-left: 380px;
     margin-top: 20px;
 }
 
 .nav a {
     color: white;
-    padding-left: 10px;
+    padding-left: 40px;
     text-decoration: none;
 }
 
-.input-Nav,
-:placeholder-shown,
-::placeholder {
-    color: white;
-}
+
+
 
 /* --------------section 1--------------- */
-.cart1-FormPay {
-    margin-top: 20px;
+.cart-FormPay {
+    margin: 20px 530px 0px 50px;
     border-radius: 10px;
-    margin-left: 50px;
-    margin-right: 500px;
-    background: whitesmoke;
+    background: rgb(255, 255, 255);
+    padding-bottom: 40px;
+    box-shadow: -1px 1px 6px -1px #cfc5c5;
 }
-
-.section-1 figure figcaption {
-    display: inline-block;
-    padding-bottom: 10px;
-}
-
 .img-sizeOne {
     width: 40px;
-    display: inline-block;
+    float: left;
+    margin: 10px 0px 0px 10px;
 }
-
+.cart-FormPay figure figcaption{
+   padding: 20px 0px 30px 60px;
+}
 .input-cartSect1 {
-    width: 284px;
+    width: 350px;
     background: #ffffff;
     font-size: 15px;
     margin-left: 20px;
     border: solid black 1px;
     border-radius: 5px;
-    display: inline-block;
+    padding: 10px 0px 10px 10px;
 }
-
-.input-Nav,
-:placeholder-shown,
-::placeholder {
-    color: rgb(0, 0, 0);
+.pSect1Size{
+    font-size: 14px;
+    padding: 0px 0px 20px 20px;
+}
+.input-cartSect1{
+    color: black;
 }
 
 .display-inliBlock {
     display: inline-block;
+}   
+/* --------------------------parte 2---------------- */
+.img-Size-Basu-Lapiz{
+    width: 20px;
+    margin-right: 10px;
+}
+.float-right{
+    float: right;
+}
+
+.shandow-background-div{
+    box-shadow: -1px 1px 6px -1px #f6f9cf;
+    background: #ffecec;
+    border-radius: 5px;
+}
+.div-marg-padd{
+    margin: 0px 0px 0px 20px;
+    padding: 20px 34px 15px 32px;
+}
+
+.h3-div-part2{
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+.p-div-part2{
+    font-size: 14px;
+    padding-bottom: 10px
+}
+
+
+/* ---------------part 3--------------- */
+.input-part3{
+    border: solid 1px black;
+    border-radius: 5px;
+    padding: 10px 0px 10px 10px;
+    margin: 20px 0px 0px 40px;
+
+}
+.input-check{
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+.pSect1Size-check{
+    padding: 3px 0px 0px 30px;
+    font-size: 14px;
+}
+.div-part3-check{
+    padding: 20px 0px 30px 40px;
+}
+
+.div-marg-padd-part3{
+    margin: 0px 0px 30px 16px;
+    padding: 10px 101px 10px 12px;
+}
+.button-part3{
+    padding: 10px 310px 10px 320px;
+    margin: 0px 0px 0px 20px;
+    border-radius: 8px;
+    background: #D23F57;
+    color: white;
+}
+
+
+/* -------------------------aside-----------------*/
+.aside{
+    border-radius: 8px;
+    padding-right: 10px;
+    box-shadow: -1px 1px 6px -1px #cfc5c5;
+}
+.padding-sectAside{
+    padding: 10px;
+}
+.div-aside1{
+    padding: 11px 200px 11px 20px;
+}
+.div-aside2{
+    padding: 11px 12px 11px 20px;
+}
+.div-aside3{
+    padding: 11px 284px 0px 9px;
+}
+.div-aside4{
+    padding: 11px 12px 11px 20px;
+}
+.div-aside5{
+    padding: 11px 6px 7px 39px;
+}
+
+.float-left{
+    float: left;
+}
+.border-top{
+    border-top: solid 1px rgb(240, 219, 219);
+    padding: 0px 10px 0px 0px;
 }
