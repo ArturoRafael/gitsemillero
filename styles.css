@@ -91,19 +91,13 @@ nav li {
   display: inline-block;
 }
 
-.input-Nav,
-:placeholder-shown,
-::placeholder {
-  color: rgb(0, 0, 0);
-}
+/*************************************************** RUBEN *************************************************/
+
+/********* estilos compartidos *********/
 
 .display-inliBlock {
   display: inline-block;
 }
-
-/*************************************************** RUBEN *************************************************/
-
-/********* estilos compartidos *********/
 
 .off-color {
   background: rgb(210, 63, 87);
@@ -118,14 +112,13 @@ nav li {
   margin: 0 auto;
 }
 
-.colorTxt{
+.colorTxt {
   color: rgb(210, 63, 87);
 }
 
 /********* Lista Productos *********/
 
 .sect-tiposProductos {
-  background: yellowgreen;
   width: 80%;
   margin: 0 auto;
 }
@@ -140,6 +133,7 @@ nav li {
   font-size: 14px;
   border-radius: 10px;
   border: 1px solid gray;
+  background: white;
 }
 
 .figure-tipoProductos img {
@@ -154,23 +148,103 @@ nav li {
 
 /********* Venta Productos *********/
 
-.article-ventas{
+.article-ventas {
+  position: relative;
   width: 240px;
-  height: 300px;
+  height: 320px;
   margin: 25px 10px;
   display: inline-block;
   border-radius: 10px;
   border: 1px solid gray;
   padding: 15px;
   font-size: 14px;
+  background: white;
 }
 
-.article-ventas img{
+.article-ventas figure img {
   margin: 45px 30px;
   width: 150px;
   height: 100px;
 }
 
-.article-ventas p{
+.article-ventas p {
   display: inline-block;
+}
+
+.Rating{
+  width: 100px;
+  margin: 10px 0;
+  display: block;
+}
+
+.btn-añadirCompra{
+  cursor: pointer;
+  position: absolute;
+  right: 15px;
+  bottom: 10px;
+  background: white;
+}
+
+.mensaje-sumaProductos{
+  margin: 50px 0;
+}
+
+/*************************************************** GABRIEL *************************************************/
+
+footer {
+  width: 100%;
+  background-color: #0f3460;
+  height: 350px;
+}
+.info-ft {
+  float: left;
+  width: 50%;
+  padding: 5%;
+}
+.info-ft h3 {
+  font-size: 30px;
+  color: #ffffff;
+  padding: 3% 0 3% 0;
+}
+.info-ft button {
+  background-color: transparent;
+  padding: 3% 3% 0 0;
+  cursor: pointer;
+}
+.info-ft button img {
+  border-radius: 10px;
+}
+.info-ft p {
+  font-size: 15px;
+  color: #ffffff;
+  padding: 3% 0 3% 0;
+}
+.info-list {
+  width: 50%;
+  float: right;
+  padding: 5% 0 5% 0;
+}
+.footer-1,
+.footer-2 {
+  float: left;
+  width: 33%;
+}
+.footer-3 {
+  float: left;
+  width: 32%;
+}
+footer ul {
+  list-style: none;
+  padding: 0 3% 0 3%;
+}
+footer ul li {
+  color: #ffffff;
+  padding-top: 7%;
+}
+footer ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+footer ul li a:hover {
+  text-decoration: underline;
 }
