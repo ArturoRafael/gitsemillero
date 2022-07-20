@@ -7,20 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Metodos de Pago</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
     <header class="background-header">
 
-        <img src="/gitsemillero/imagenes/phone.png" alt="" class="img-size">
+        <img src="/imagenes/phone.png" alt="" class="img-size">
         <p>
             +88012 3456 7895
         </p>
-        <img src="/gitsemillero/imagenes/message.png" alt="" class="img-size">
+        <img src="/imagenes/message.png" alt="" class="img-size">
         <p>
             support@ui-lib.com
         </p>
@@ -29,7 +26,7 @@
         <nav class="nav">
             <ul>
                 <li>
-                    <a href="">Home</a>
+                    <a href="./listaProductos.html">Home</a>
                 </li>
                 <li>
                     <a href="">Theme FAQ"s</a>
@@ -38,53 +35,269 @@
                     <a href="">Need help?</a>
                 </li>
                 <li>
-
-                    <input list="cursos" placeholder="Eng" class="input-Nav" class="input">
-                    <datalist id="cursos">
-                        <option value="Eng"></option>
-                        <option value="Spa"></option>
-                        <option value="Frans"></option>
-                    </datalist>
+                    <Select class="select-nav">
+                        <option value="ENG">ENG</option>
+                    </Select>
                 </li>
                 <li>
-                    <input list="moneda" placeholder="USD" class="input-Nav" class="input">
-                    <datalist id="moneda">
-                        <option value="USD"></option>
-                        <option value="COL"></option>
-                        <option value="EU"></option>
-                    </datalist>
+                    <Select class="select-nav">
+                        <option value="USD">USD</option>
+                    </Select>
                 </li>
             </ul>
         </nav>
     </header>
 
     <main>
+        <!-- -------------aside---------------->
+        <aside class="aside float-right">
+            <section class="padding-sectAside">
+                <h3 class="h3-div-part2">
+                    Your order
+                </h3>
+                <div class="display-inliBlock div-aside1">
+                    <p>
+                        1 x iPhone 12
+                    </p>
+                    <p>
+                        1 x iPhone 12 pro
+                    </p>
+                    <p>
+                        1 x iPhone 12 pro max
+                    </p>
+                </div>
+                <div class="display-inliBlock div-aside2">
+                    <p>
+                        %999.0
+                    </p>
+                    <p>
+                        $1199.00
+                    </p>
+                    <p>
+                        $1299.00
+                    </p>
+                </div>
+            </section>
+            <section class="border-top">
+                <div class="display-inliBlock div-aside3">
+                    <p class="pSect1Size"> 
+                        <span class="colorText">
+                            SubTotal:
+                        </span>
+                    </p>
+                    <p class="pSect1Size"> 
+                        <span class="colorText">
+                            Shipping:
+                        </span>
+                    </p>
+                    <p class="pSect1Size"> 
+                        <span class="colorText">
+                            Tax:
+                        </span>
+                    </p>
+                    <p class="pSect1Size"> 
+                        <span class="colorText">
+                            Discount:
+                        </span>
+                    </p>
+                </div>
+                <div class="display-inliBlock div-aside4">
+                    <p class="pSect1Size">
+                        <strong>
+                            $2610.00
+                        </strong>
+                    </p>
+                    <p class="pSect1Size">
+                        <strong>
+                            -
+                        </strong>
+                    </p>
+                    <p class="pSect1Size">
+                        <strong>
+                            $40.00
+                        </strong>
+                    </p>
+                    <p class="pSect1Size">
+                        <strong>
+                            -
+                        </strong>
+                    </p>
+                </div>
+            </section>
+            <section class="border-top">
+                <div class="display-inliBlock div-aside3">
+                    <p class="pSect1Size"> 
+                        <span class="colorText">
+                            SubTotal:
+                        </span>
+                    </p>
+                </div>
+                <div class="display-inliBlock div-aside5">
+                    <p>
+                        <strong>
+                            $2519.00
+                        </strong>
+                    </p>
+                </div>
+            </section>
+
+
+        </aside>
         <!-- --------section 1------- -->
-        <section class="sectiom-padding">
-            <div class="cart1-FormPay">
+        <section>
+            <!-- ---------------------parte 1-------------------- -->
+            <div class="cart-FormPay">
                 <figure>
-                    <img src="/gitsemillero/imagenes/1.png" alt="" class="img-sizeOne">
+                    <img src="/imagenes/1.png" alt="" class="img-sizeOne">
                     <figcaption>
                         Develiry Date and Time
                     </figcaption>
-                   </figure>
-                    <form action="" class="display-inliBlock">
-                        <input list="moneda" placeholder="USD" class="input-cartSect1" class="input">
-                        <datalist id="moneda">
-                            <option value="USD"></option>
-                            <option value="COL"></option>
-                            <option value="EU"></option>
-                        </datalist>
-                    </form>
+                </figure>
+                <form>
+                    <input list="moneda" placeholder="USD" class="input-cartSect1 display-inliBlock">
+                    <datalist id="moneda">
+                        <option value="USD"></option>
+                        <option value="COL"></option>
+                        <option value="EU"></option>
+                    </datalist>
 
-                    <form action="" class="display-inliBlock">
-                        <input list="moneda" placeholder="USD" class="input-cartSect1" class="input">
-                        <datalist id="moneda">
-                            <option value="USD"></option>
-                            <option value="COL"></option>
-                            <option value="EU"></option>
-                        </datalist>
-                    </form>
+                    <input list="moneda" placeholder="USD" class="input-cartSect1 display-inliBlock">
+                    <datalist id="moneda">
+                        <option value="USD"></option>
+                        <option value="COL"></option>
+                        <option value="EU"></option>
+                    </datalist>
+                </form>
+            </div>
+            <!-- -------------------parte 2--------------------------->
+            <div class="cart-FormPay">
+                <figure>
+                    <img src="/imagenes/2.png" alt="" class="img-sizeOne">
+                    <figcaption>
+                        Develiry Anddress
+                    </figcaption>
+                </figure>
+                <p class="pSect1Size">
+                    Delivery Address
+                </p>
+                <div class="shandow-background-div div-marg-padd display-inliBlock">
+                    <img src="/imagenes/basura.png" alt="" class="float-right img-Size-Basu-Lapiz">
+                    <img src="/imagenes/lapiz.png" alt="" class="img-Size-Basu-Lapiz float-right">
+                    <h3 class="h3-div-part2">
+                        Home
+                    </h3>
+                    <p class="p-div-part2">
+                        375 Subidbazar, MA 2351
+                    </p>
+                    <p class="p-div-part2">
+                        +17804084466
+                    </p>
+                </div>
+
+                <div class="shandow-background-div div-marg-padd display-inliBlock">
+                    <img src="/imagenes/basura.png" alt="" class="float-right img-Size-Basu-Lapiz">
+                    <img src="/imagenes/lapiz.png" alt="" class="img-Size-Basu-Lapiz float-right">
+                    <h3 class="h3-div-part2">
+                        Office
+                    </h3>
+                    <p class="p-div-part2">
+                        647 BondorBazar,Ma 2351
+                    </p>
+                    <p class="p-div-part2">
+                        +18334271710
+                    </p>
+                </div>
+
+
+                <div class="shandow-background-div div-marg-padd display-inliBlock">
+                    <img src="/imagenes/basura.png" alt="" class="float-right img-Size-Basu-Lapiz">
+                    <img src="/imagenes/lapiz.png" alt="" class="img-Size-Basu-Lapiz float-right">
+                    <h3 class="h3-div-part2">
+                        Office
+                    </h3>
+                    <p class="p-div-part2">
+                        324 Ambarjhana, Ma 2351
+                    </p>
+                    <p class="p-div-part2">
+                        +11754739407
+                    </p>
+                </div>
+            </div>
+            <!-- -------------------parte 3--------------------------->
+            <div class="cart-FormPay">
+                <figure>
+                    <img src="/imagenes/3.png" alt="" class="img-sizeOne">
+                    <figcaption>
+                        Payment Details
+                    </figcaption>
+                </figure>
+                <p class="pSect1Size">
+                    Enter Card Information
+                </p>
+                <form action="" class="display-inliBlock">
+                    <input type="text" placeholder="Enter Your name" class="input-cartSect1 ">
+
+                    <input type="text" placeholder="Enter Your Card Number" class="input-cartSect1">
+
+                    <input list="card-1" placeholder="Expire Card Month" class="input-part3">
+                    <datalist id="card-1">
+                        <option value="001"></option>
+                        <option value="002"></option>
+                        <option value="003"></option>
+                    </datalist>
+
+
+                    <input list="card-2" placeholder="Expire Card Year" class="input-part3 ">
+                    <datalist id="card-2">
+                        <option value="004"></option>
+                        <option value="005"></option>
+                        <option value="005"></option>
+                    </datalist>
+
+                    <input type="text" placeholder="CVC/CW" class="input-part3">
+                </form>
+                <div class="div-part3-check">
+                    <input type="checkbox" class="input-check">
+                    <p class="pSect1Size-check">
+                        Save Cards
+                    </p>
+                </div>
+                <p class="pSect1Size">
+                    Save Cards
+                </p>
+                <div class="shandow-background-div div-marg-padd-part3 display-inliBlock">
+                    <img src="/imagenes/amex.png" alt="">
+                    <p class="p-div-part2">
+                        **** **** **** 4765
+                    </p>
+                    <p class="p-div-part2">
+                        Jaslyn Land
+                    </p>
+                </div>
+                <div class="shandow-background-div div-marg-padd-part3 display-inliBlock">
+                    <img src="/imagenes/master-card.png" alt="">
+                    <p class="p-div-part2">
+                        **** **** **** 4765
+                    </p>
+                    <p class="p-div-part2">
+                        Jaslyn Land
+                    </p>
+                </div>
+                <div class="shandow-background-div div-marg-padd-part3 display-inliBlock">
+                    <img src="/imagenes/visa.png" alt="">
+                    <p class="p-div-part2">
+                        **** **** **** 4765
+                    </p>
+                    <p class="p-div-part2">
+                        Jaslyn Land
+                    </p>
+                </div>
+                <p class="pSect1Size">
+                    <span class="colorTxt">I Have A Voucher</span>
+                </p>
+                <button class="button-part3">
+                    Place Order
+                </button>
             </div>
         </section>
     </main>
