@@ -423,9 +423,14 @@ nav li {
     display: inline-block;
 }   
 /* --------------------------parte 2---------------- */
-.img-Size-Basu-Lapiz{
+.img-Size-Basu{
     width: 20px;
-    margin-right: 10px;
+    margin-right: -27px;
+}
+
+.img-Size-lapiz{
+    width: 20px;
+    margin-right: 5px;
 }
 .float-right{
     float: right;
