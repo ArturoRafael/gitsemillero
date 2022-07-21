@@ -39,13 +39,17 @@
       padding: 0 0 5% 20%;
   }
   .buys-g{
-      padding: 8% 0 0 5%;
+      padding: 120px 0 0 100px;
   }
   .carros-mi{
   padding-left: 25%;
   }
-  .carros-mi button{
-      background: transparent;
+  .carrito1{
+    display: inline-block;
+   
+  }
+  .carrito{
+    display: inline;
   }
   .clear-fix{
       clear: both;
@@ -61,38 +65,60 @@
       padding-left: 3%;
   }
   .lord{
-      padding: 4% 0 4% 0;
-      font-size: 40px;
+      padding: 38px 0 38px 0;
+      font-size: 35px;
   }
   .lord-p{
-      padding: 0% 0 2% 0%;
+    font-size: 15px;
+      padding: 0% 0 24px 0%;
+  }
+  .precio-p-168{
+    padding-bottom: 5%;
+    font-size: 17px;
   }
   .precio-168{
       color: #d23f57;
-      padding-top: 3%;
+      padding:3% 0 1% 0;
+      font-size: 32px;
+     
   }
   .cantidad{
       padding: 3% 0 8% 0;
-      display: inline-block;
+      display: inline;
+
   }
-  .mas,.menos, .cantidad h3{
-      float: left;
+  .mas,.menos {
+      display: inline;
+      color: #d23f57;
+      font-size: 27px;
+      text-decoration: none;
+      padding: 5px 12px;
+      border: 1px solid #D23F57;
+      margin: 0% 2% 2% 0;
+      border-radius: 7px ;
+      text-align: center;
+
   }
+ 
   .cantidad h3{
-      font-size: 20px;
-      padding: 10% 0 0 0;
+    margin-top: 10px;
+      font-size: 25px;
+      display: inline;
+      padding-right: 2%;
   }
   .checkout{
     display: block;
     background-color: #d23f57;
     border-radius: 5px;
-    width: 35%;
-    height: 30px;
+    width: 40%;
+    height: 35px;
     text-align: center;
+    margin-top: 8%;
   }
   .checkout button {
       color: #ffffff;
       padding-top: 3%;
+      font-size: 17px;
   }
   /**Fin Info-producto**/
   /**Reviews**/
@@ -336,7 +362,7 @@
   /* ----------------- brayan luna-------------*/
   .select-nav{
     background: #0F3460;
-    padding-left: 20PX;
+    padding-left: 34PX;
     color: white;
 }
 .background-header {
@@ -373,7 +399,8 @@ nav li {
 }
 
 .nav {
-    padding-left: 380px;
+    font-size: 13px;
+    padding-left: 518px;
     margin-top: 20px;
 }
 

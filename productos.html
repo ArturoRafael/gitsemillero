@@ -9,51 +9,41 @@
   </head>
   <body>
     <header class="background-header">
-      <img src="/gitsemillero/imagenes/phone.png" alt="" class="img-size" />
-      <p>+88012 3456 7895</p>
-      <img src="/gitsemillero/imagenes/message.png" alt="" class="img-size" />
-      <p>support@ui-lib.com</p>
+
+      <img src="/imagenes/phone.png" alt="" class="img-size">
+      <p>
+          +88012 3456 7895
+      </p>
+      <img src="/imagenes/message.png" alt="" class="img-size">
+      <p>
+          support@ui-lib.com
+      </p>
+
 
       <nav class="nav">
-        <ul>
-          <li>
-            <a href="">Home</a>
-          </li>
-          <li>
-            <a href="">Theme FAQ"s</a>
-          </li>
-          <li>
-            <a href="">Need help?</a>
-          </li>
-          <li>
-            <input
-              list="cursos"
-              placeholder="Eng"
-              class="input-Nav"
-              class="input"
-            />
-            <datalist id="cursos">
-              <option value="Eng"></option>
-              <option value="Spa"></option>
-              <option value="Frans"></option>
-            </datalist>
-          </li>
-          <li>
-            <input
-              list="moneda"
-              placeholder="USD"
-              class="input-Nav"
-              class="input"
-            />
-            <datalist id="moneda">
-              <option value="USD"></option>
-              <option value="COL"></option>
-              <option value="EU"></option>
-            </datalist>
-          </li>
-        </ul>
+          <ul>
+              <li>
+                  <a href="./listaProductos.html">Home</a>
+              </li>
+              <li>
+                  <a href="">Theme FAQ"s</a>
+              </li>
+              <li>
+                  <a href="">Need help?</a>
+              </li>
+              <li>
+                  <Select class="select-nav">
+                      <option value="ENG">ENG</option>
+                  </Select>
+              </li>
+              <li>
+                  <Select class="select-nav">
+                      <option value="USD">USD</option>
+                  </Select>
+              </li>
+          </ul>
       </nav>
-    </header>
+  </header>
    
     <main class="main-g">
       <!-- Producto -->
@@ -61,17 +51,15 @@
         <div class="buys-g">
           <img src="./img/carro.png" />
           <div class="carros-mi">
-            <button class="carro-d">
-              <img src="./img/carrito.png" />
-            </button>
-
-            <button>
-              <img src="./img/carrito.png" />
-            </button>
-
-            <button>
-              <img src="./img/carrito.png" />
-            </button>
+            <a>
+              <img src="./img/carrito.png" class="carrito1">
+            </a>
+            <a>
+              <img src="./img/carrito.png" class="carrito">
+            </a>
+            <a>
+              <img src="./img/carrito.png" class="carrito">
+            </a>
           </div>
         </div>
 
@@ -99,18 +87,19 @@
           </div>
 
           <h2 class="precio-168">$168.00</h2>
-          <p>Stock available</p>
+          <p  class="precio-p-168">Stock available</p>
 
           <div class="cantidad">
-            <button class="menos">
-              <img src="./img/-.png" />
-            </button>
+            <a class="menos" href="#">
+            -
+            </a>
 
-            <h3>01</h3>
+            <h3 class="class-01">01</h3>
 
-            <button class="mas">
-              <img src="./img/+.png" />
-            </button>
+            <a class="mas" href="#">
+             +
+
+            </a>
           </div>
 
           <a href="./Form-pay.html" class="checkout">
