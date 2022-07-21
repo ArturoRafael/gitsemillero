@@ -1,0 +1,597 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*************************************************** GABRIEL *************************************************/
+
+
+/**Main-Gabriel**/
+.main-g {
+    background-color: #f6f9fc;
+    width: 100%;
+    height: auto;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+/**Info-producto**/
+.buys {
+    width: 100%;
+}
+
+.buys button {
+    cursor: pointer;
+    background: transparent;
+}
+
+.buys-g,
+.info-buys {
+    float: left;
+    width: 50%;
+}
+
+.info-buys {
+    float: left;
+    width: 49%;
+}
+
+.buys-g img {
+    display: block;
+    padding: 0 0 5% 20%;
+}
+
+.buys-g {
+    padding: 8% 0 0 5%;
+}
+
+.carros-mi {
+    padding-left: 25%;
+}
+
+.carros-mi button {
+    background: transparent;
+}
+
+.clear-fix {
+    clear: both;
+}
+
+.estrella {
+    display: inline-flex;
+}
+
+.estrella p {
+    padding: 2% 10% 0 0;
+}
+
+.estrella button {
+    background: transparent;
+    padding-left: 3%;
+}
+
+.lord {
+    padding: 4% 0 4% 0;
+    font-size: 40px;
+}
+
+.lord-p {
+    padding: 0% 0 2% 0%;
+}
+
+.precio-168 {
+    color: #d23f57;
+    padding-top: 3%;
+}
+
+.cantidad {
+    padding: 3% 0 8% 0;
+    display: inline-block;
+}
+
+.mas,
+.menos,
+.cantidad h3 {
+    float: left;
+}
+
+.cantidad h3 {
+    font-size: 20px;
+    padding: 10% 0 0 0;
+}
+
+.checkout {
+    display: block;
+    background-color: #d23f57;
+    border-radius: 5px;
+    width: 35%;
+    height: 30px;
+    text-align: center;
+}
+
+.checkout button {
+    color: #ffffff;
+    padding-top: 3%;
+}
+
+/**Fin Info-producto**/
+/**Reviews**/
+.reviews {
+    width: 100%;
+    padding: 15% 5% 0 5%;
+}
+
+.reviews-hr {
+    width: 95%;
+    border: none;
+    background: #dfe5ea;
+    height: 1px;
+}
+
+.reviews-a {
+    text-decoration: none;
+    color: #d23f57;
+}
+
+.persona1-img {
+    display: inline-block;
+    padding-top: 1%;
+}
+
+.calificacion-info {
+    display: inline-block;
+    padding: 1% 0 0 1%;
+}
+
+.estrellas-re {
+    background: transparent;
+}
+
+.years {
+    font-size: 15px;
+    display: inline-block;
+}
+
+.opinion {
+    padding: 3% 0 3% 0
+}
+
+.estrellas-re:hover {
+    cursor: pointer;
+}
+
+/**Fin Reviews**/
+.crear-review {
+    padding: 2% 0 0 5%;
+}
+
+.p-form {
+    padding: 2% 0 2% 0;
+}
+
+textarea {
+    width: 90%;
+    height: 200px;
+    resize: none;
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 1% 0 5% 2%;
+    border: 1px solid #dfe5ea;
+}
+
+.submit {
+    margin-top: 1%;
+    display: block;
+    width: 5%;
+    height: 40px;
+    color: #D8DBDD;
+}
+
+.crear-review {
+    padding-bottom: 5%;
+}
+
+.crear-review h2 {
+    padding-bottom: 2%;
+}
+
+.crear-review button {
+    margin-top: 2%;
+}
+
+.product-prefooter {
+    padding: 5% 0 5% 13%;
+}
+
+.off-color {
+    color: #ffffff;
+}
+
+/**End-Main-Gabriel**/
+/**Footer**/
+footer {
+    width: 100%;
+    background-color: #0F3460;
+    height: 380px;
+}
+
+.info-ft {
+    float: left;
+    width: 50%;
+    padding: 5%;
+}
+
+.info-ft h3 {
+    font-size: 30px;
+    color: #ffffff;
+    padding: 3% 0 3% 0;
+}
+
+.info-ft button {
+    background-color: transparent;
+    padding: 3% 3% 0 0;
+    cursor: pointer;
+}
+
+.info-ft button img {
+    border-radius: 10px;
+}
+
+.info-ft p {
+    font-size: 15px;
+    color: #ffffff;
+    padding: 3% 0 3% 0;
+}
+
+.info-list {
+    width: 50%;
+    float: right;
+    padding: 5% 0 5% 0;
+}
+
+.footer-1,
+.footer-2 {
+    float: left;
+    width: 33%;
+}
+
+.footer-3 {
+    float: left;
+    width: 32%;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0 3% 0 3%;
+}
+
+footer ul li {
+    color: #ffffff;
+    padding-top: 7%;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+.display-inliBlock {
+    display: inline-block;
+}
+
+/****************************************************************************************************/
+/*************************************************** RUBEN *************************************************/
+
+/********* estilos compartidos *********/
+
+.display-inliBlock {
+    display: inline-block;
+}
+
+.off-color {
+    background: rgb(210, 63, 87);
+    border-radius: 15px;
+    padding: 5px;
+    font-size: 10px;
+    width: 80px;
+    text-align: center;
+}
+
+.centradoMargin {
+    margin: 0 auto;
+}
+
+.colorTxt {
+    color: rgb(210, 63, 87);
+}
+
+/********* Lista Productos *********/
+
+.sect-tiposProductos {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.sect-tiposProductos div {
+    display: inline-block;
+    margin: 25px 10px;
+    padding: 15px;
+    width: 240px;
+    height: 160px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    background: white;
+}
+
+.figure-tipoProductos img {
+    width: 35px;
+    height: 35px;
+    margin: 15px 0;
+}
+
+.rightOff {
+    margin: 0 120px;
+}
+
+/********* Venta Productos *********/
+
+.article-ventas {
+    position: relative;
+    width: 240px;
+    height: 320px;
+    margin: 25px 10px;
+    display: inline-block;
+    border-radius: 10px;
+    border: 1px solid gray;
+    padding: 15px;
+    font-size: 14px;
+    background: white;
+}
+
+.article-ventas figure img {
+    margin: 45px 30px;
+    width: 150px;
+    height: 100px;
+}
+
+.article-ventas p {
+    display: inline-block;
+}
+
+.Rating {
+    width: 100px;
+    margin: 10px 0;
+    display: block;
+}
+
+.btn-añadirCompra {
+    cursor: pointer;
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+    background: white;
+}
+
+.mensaje-sumaProductos {
+    margin: 50px 0;
+}
+
+/***************************************************  *************************************************/
+
+
+/* ----------------- brayan luna-------------*/
+.select-nav {
+    background: #0F3460;
+    padding-left: 20PX;
+    color: white;
+}
+
+.background-header {
+    background: #0F3460;
+    padding-bottom: 10px;
+
+}
+
+.background-header p {
+    color: white;
+    display: inline-block;
+    padding-left: 10px;
+    margin-top: 10px;
+
+}
+
+.img-size {
+    width: 20px;
+    display: inline-block;
+    margin-left: 30px;
+
+}
+
+.input-Nav {
+    width: 57px;
+    background: #0F3460;
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+.nav,
+nav li {
+    display: inline-block;
+}
+
+.nav {
+    padding-left: 380px;
+    margin-top: 20px;
+}
+
+.nav a {
+    color: white;
+    padding-left: 40px;
+    text-decoration: none;
+}
+
+
+
+
+/* --------------section 1--------------- */
+.cart-FormPay {
+    margin: 20px 530px 0px 50px;
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    padding-bottom: 40px;
+    box-shadow: -1px 1px 6px -1px #cfc5c5;
+}
+
+.img-sizeOne {
+    width: 40px;
+    float: left;
+    margin: 10px 0px 0px 10px;
+}
+
+.cart-FormPay figure figcaption {
+    padding: 20px 0px 30px 60px;
+}
+
+.input-cartSect1 {
+    width: 350px;
+    background: #ffffff;
+    font-size: 15px;
+    margin-left: 20px;
+    border: solid black 1px;
+    border-radius: 5px;
+    padding: 10px 0px 10px 10px;
+}
+
+.pSect1Size {
+    font-size: 14px;
+    padding: 0px 0px 20px 20px;
+}
+
+.input-cartSect1 {
+    color: black;
+}
+
+.display-inliBlock {
+    display: inline-block;
+}
+
+/* --------------------------parte 2---------------- */
+.img-Size-Basu-Lapiz {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.float-right {
+    float: right;
+}
+
+.shandow-background-div {
+    box-shadow: -1px 1px 6px -1px #f6f9cf;
+    background: #ffecec;
+    border-radius: 5px;
+}
+
+.div-marg-padd {
+    margin: 0px 0px 0px 20px;
+    padding: 20px 34px 15px 32px;
+}
+
+.h3-div-part2 {
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.p-div-part2 {
+    font-size: 14px;
+    padding-bottom: 10px
+}
+
+
+/* ---------------part 3--------------- */
+.input-part3 {
+    border: solid 1px black;
+    border-radius: 5px;
+    padding: 10px 0px 10px 10px;
+    margin: 20px 0px 0px 40px;
+
+}
+
+.input-check {
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+
+.pSect1Size-check {
+    padding: 3px 0px 0px 30px;
+    font-size: 14px;
+}
+
+.div-part3-check {
+    padding: 20px 0px 30px 40px;
+}
+
+.div-marg-padd-part3 {
+    margin: 0px 0px 30px 16px;
+    padding: 10px 101px 10px 12px;
+}
+
+.button-part3 {
+    padding: 10px 310px 10px 320px;
+    margin: 0px 0px 0px 20px;
+    border-radius: 8px;
+    background: #D23F57;
+    color: white;
+}
+
+
+/* -------------------------aside-----------------*/
+.aside {
+    border-radius: 8px;
+    padding-right: 10px;
+    box-shadow: -1px 1px 6px -1px #cfc5c5;
+}
+
+.padding-sectAside {
+    padding: 10px;
+}
+
+.div-aside1 {
+    padding: 11px 200px 11px 20px;
+}
+
+.div-aside2 {
+    padding: 11px 12px 11px 20px;
+}
+
+.div-aside3 {
+    padding: 11px 284px 0px 9px;
+}
+
+.div-aside4 {
+    padding: 11px 12px 11px 20px;
+}
+
+.div-aside5 {
+    padding: 11px 6px 7px 38px;
+}
+
+.float-left {
+    float: left;
+}
+
+.border-top {
+    border-top: solid 1px rgb(240, 219, 219);
+    padding: 0px 10px 0px 0px;
+}
