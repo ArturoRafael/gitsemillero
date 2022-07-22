@@ -9,18 +9,21 @@
 </head>
 <body>
     <header class="background-header">
-        <img src="img/phone.png" alt="celular" class="img-size">
+
+        <img src="/img/phone.png" alt="" class="img-size">
         <p>
             +88012 3456 7895
         </p>
-        <img src="img/message.png" alt="mail" class="img-size">
+        <img src="/img/message.png" alt="" class="img-size">
         <p>
             support@ui-lib.com
         </p>
+
+
         <nav class="nav">
             <ul>
                 <li>
-                    <a href="">Home</a>
+                    <a href="./listaProductos.html">Home</a>
                 </li>
                 <li>
                     <a href="">Theme FAQ"s</a>
@@ -29,20 +32,14 @@
                     <a href="">Need help?</a>
                 </li>
                 <li>
-                    <input list="cursos" placeholder="Eng" class="input-Nav" class="input">
-                    <datalist id="cursos">
-                        <option value="Eng"></option>
-                        <option value="Spa"></option>
-                        <option value="Frans"></option>
-                    </datalist>
+                    <Select class="select-nav">
+                        <option value="ENG">ENG</option>
+                    </Select>
                 </li>
                 <li>
-                    <input list="moneda" placeholder="USD" class="input-Nav" class="input">
-                    <datalist id="moneda">
-                        <option value="USD"></option>
-                        <option value="COL"></option>
-                        <option value="EU"></option>
-                    </datalist>
+                    <Select class="select-nav">
+                        <option value="USD">USD</option>
+                    </Select>
                 </li>
             </ul>
         </nav>

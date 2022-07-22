@@ -466,11 +466,13 @@ nav li {
 .img-Size-Basu{
     width: 20px;
     margin-right: -27px;
+    cursor: pointer;
 }
 
 .img-Size-lapiz{
     width: 20px;
     margin-right: 5px;
+    cursor: pointer;
 }
 .float-right{
     float: right;
@@ -485,8 +487,7 @@ nav li {
 }
 
 .shandow-background-div{
-    box-shadow: -1px 1px 6px -1px #f6f9cf;
-    background: #ffecec;
+    background: #F6F9FC;
     border-radius: 5px;
 }
 .div-marg-padd{
