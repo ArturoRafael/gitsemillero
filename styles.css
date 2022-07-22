@@ -463,12 +463,25 @@ nav li {
     display: inline-block;
 }   
 /* --------------------------parte 2---------------- */
-.img-Size-Basu-Lapiz{
+.img-Size-Basu{
     width: 20px;
-    margin-right: 10px;
+    margin-right: -27px;
+}
+
+.img-Size-lapiz{
+    width: 20px;
+    margin-right: 5px;
 }
 .float-right{
     float: right;
+}
+.button-part2{
+    margin: 40px 20px 0px 0px;
+    padding: 8px 30px 8px 30px;
+    border: solid #D23F57 1px;
+    border-radius: 4px;
+    background: #ffffff;
+    color: #e72343;
 }
 
 .shandow-background-div{
@@ -527,9 +540,7 @@ nav li {
 
 /* -------------------------aside-----------------*/
 .aside{
-    border-radius: 8px;
     padding-right: 10px;
-    box-shadow: -1px 1px 6px -1px #cfc5c5;
 }
 .padding-sectAside{
     padding: 10px;
